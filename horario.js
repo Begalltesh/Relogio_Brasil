@@ -2,7 +2,7 @@ const horas = document.getElementById('horas')//chamando "id's"
 const minutos = document.getElementById('minutos')
 const segundos = document.getElementById('segundos')
 
-const relogio = setInterval(function time(){//chamando função "time" a cada defeito de tempo
+const relogio = setInterval(function time(){//chamando função "time" a cada periodo de tempo
 
     let DateToday = new Date();//hora atual em millisegundos
     let hr = DateToday.getHours();//varivael hr receberá as horas d horario atual
